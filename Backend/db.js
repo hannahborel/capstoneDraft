@@ -3,7 +3,8 @@ const uuid = require("uuid");
 const bcrypt = require("bcryptjs");
 
 const client = new pg.Client(
-  process.env.DATABASE_URL || "postgres://postgres@localhost/nfl_db"
+  process.env.DATABASE_URL ||
+    "postgresql://postgres:postgres@localhost:5432/jen_project_db"
 );
 
 const createTables = async () => {
