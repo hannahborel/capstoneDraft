@@ -1,0 +1,59 @@
+.checkout-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cart-items-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-header {
+  display: contents;
+  font-weight: bold;
+}
+
+.grid-header > div {
+  padding: 10px;
+}
+
+.grid-row {
+  display: contents;
+}
+
+.grid-row > div {
+  padding: 10px;
+}
+
+.total-section {
+  margin: 20px 0;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.shipping-section {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.shipping-details {
+  margin-top: 10px;
+}
+
+.shipping-details p {
+  margin: 5px 0;
+}
+
+.purchase-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+}

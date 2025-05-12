@@ -1,0 +1,23 @@
+.user-details-container {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  border: 1px solid #eee;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}

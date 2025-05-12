@@ -1,0 +1,11 @@
+.admin-home {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.admin-home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
